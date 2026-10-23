@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171816">
+  <meta name="description" content="LaBen — laboratorio sonoro. Música, experimentación y materia en movimiento.">
+  <title>LaBen — Laboratorio sonoro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#inicio" aria-label="LaBen inicio">La<span>Ben</span><i>®</i></a>
+    <div class="topbar-right">
+      <span class="status"><b class="status-dot"></b><span data-es="SISTEMA EN LÍNEA" data-en="SYSTEM ONLINE">SISTEMA EN LÍNEA</span></span>
+      <button class="lang-switch" id="langToggle" type="button" aria-label="Switch language">ES / EN</button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false">MENU <span>＋</span></button>
+    </div>
+  </header>
+
+  <nav class="menu-panel" id="menuPanel" aria-label="Navegación">
+    <a href="#laboratorio" data-es="Laboratorio sonoro ↘" data-en="Sound lab ↘">Laboratorio sonoro ↘</a>
+    <a href="#protocolo" data-es="Protocolo ↘" data-en="Protocol ↘">Protocolo ↘</a>
+    <a href="#archivo" data-es="Archivo ↘" data-en="Archive ↘">Archivo ↘</a>
+    <a href="#contacto" data-es="Contacto ↘" data-en="Contact ↘">Contacto ↘</a>
+  </nav>
+
+  <main>
+    <section class="hero section-grid" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>LB—001</span> <span data-es="UNIDAD DE EXPERIMENTACIÓN SONORA" data-en="SOUND EXPERIMENTATION UNIT">UNIDAD DE EXPERIMENTACIÓN SONORA</span></p>
+        <h1 data-es="SONIDO<br>EN <em>ESTADO</em><br>BRUTO<span class='period'>.</span>" data-en="SOUND<br>IN ITS <em>RAW</em><br>STATE<span class='period'>.</span>">SONIDO<br>EN <em>ESTADO</em><br>BRUTO<span class="period">.</span></h1>
+        <div class="hero-bottom">
+          <p class="intro" data-es="Un laboratorio en funcionamiento. Cuatro cuerpos, máquinas inestables y música en proceso." data-en="A working laboratory. Four bodies, unstable machines, and music in progress.">Un laboratorio en funcionamiento. Cuatro cuerpos, máquinas inestables y música en proceso.</p>
+          <a class="round-link" href="#laboratorio" aria-label="Ir al laboratorio sonoro">↓</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Gráfico abstracto industrial de laboratorio">
+        <div class="art-stamp">LAB<br><strong>EN</strong><small>EST. MMXX</small></div>
+        <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+        <div class="crosshair cross-a">+</div><div class="crosshair cross-b">+</div>
+        <div class="art-line line-a"></div><div class="art-line line-b"></div>
+        <div class="art-label label-a">OSC / 04<br><small>INPUT: MATTER</small></div>
+        <div class="art-label label-b">FIG. 001—B<br><small>UNSTABLE SIGNAL</small></div>
+        <div class="art-center"><span>LB</span><i>∿</i></div>
+        <div class="vertical-code">FREQUENCY / FRICTION / FORM</div>
+        <div class="art-coordinates">42° 46' S<br>65° 02' W</div>
+      </div>
+      <div class="hero-meta"><span>INDEPENDENT SOUND PRACTICE</span><span>PUERTO MADRYN · ARGENTINA</span><span>001—∞</span></div>
+    </section>
+
+    <section class="manifesto section-grid" id="protocolo">
+      <div class="section-kicker"><span class="section-number">01 /</span><span data-es="PROTOCOLO" data-en="PROTOCOL">PROTOCOLO</span></div>
+      <div class="manifesto-content">
+        <p class="big-statement" data-es="No buscamos limpiar el ruido. <em>Lo ponemos a trabajar.</em>" data-en="We don't clean up the noise. <em>We put it to work.</em>">No buscamos limpiar el ruido. <em>Lo ponemos a trabajar.</em></p>
+        <div class="manifesto-bottom">
+          <p data-es="LaBen opera entre la composición y el accidente: un taller abierto donde el pulso, la repetición y la materia sonora se transforman en música." data-en="LaBen operates between composition and accident: an open workshop where pulse, repetition, and sonic matter become music.">LaBen opera entre la composición y el accidente: un taller abierto donde el pulso, la repetición y la materia sonora se transforman en música.</p>
+          <div class="spec-list">
+            <div><span>INPUT</span><b>FIELD / CIRCUIT</b></div>
+            <div><span>METHOD</span><b>REPEAT / DISTORT</b></div>
+            <div><span>OUTPUT</span><b>UNCLASSIFIED</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="soundlab section-grid" id="laboratorio">
+      <div class="section-kicker"><span class="section-number">02 /</span><span data-es="LABORATORIO SONORO" data-en="SOUND LAB">LABORATORIO SONORO</span><span class="live-tag"><b></b> LIVE / 001</span></div>
+      <div class="lab-main">
+        <div class="lab-heading">
+          <div><p class="eyebrow">INTERACTIVE MODULE / 01</p><h2 data-es="MÁQUINA<br><em>DE PULSO</em>" data-en="PULSE<br><em>MACHINE</em>">MÁQUINA<br><em>DE PULSO</em></h2></div>
+          <p class="lab-instructions" data-es="Activá celdas para construir un patrón. Usá los pads para disparar tonos de prueba. El audio se genera en tu navegador." data-en="Activate steps to build a pattern. Use the pads to trigger test tones. Audio is generated in your browser.">Activá celdas para construir un patrón. Usá los pads para disparar tonos de prueba. El audio se genera en tu navegador.</p>
+        </div>
+        <div class="sequencer-panel">
+          <div class="panel-top"><span>SEQ—A / 16 STEP</span><span class="panel-status"><b></b> <span data-es="LISTO" data-en="READY">LISTO</span></span></div>
+          <div class="transport">
+            <button id="playBtn" class="play-btn" type="button"><span class="play-icon">▶</span><span data-es="INICIAR" data-en="START">INICIAR</span></button>
+            <button id="clearBtn" class="utility-btn" type="button" data-es="LIMPIAR" data-en="CLEAR">LIMPIAR</button>
+            <label class="tempo-control"><span>BPM</span><input id="tempo" type="range" min="60" max="160" value="110"><output id="tempoValue">110</output></label>
+          </div>
+          <div class="sequencer" id="sequencer" aria-label="Secuenciador de 16 pasos"></div>
+          <div class="sequence-legend"><span><i class="legend-on"></i><span data-es="ACTIVO" data-en="ACTIVE">ACTIVO</span></span><span><i class="legend-play"></i><span data-es="POSICIÓN" data-en="PLAYHEAD">POSICIÓN</span></span><span>4/4 · 16 STEPS</span></div>
+        </div>
+        <div class="pads-wrap">
+          <div class="pads-header"><span data-es="DISPARADORES MANUALES" data-en="MANUAL TRIGGERS">DISPARADORES MANUALES</span><span>PAD—01 / 04</span></div>
+          <div class="pads">
+            <button class="pad" data-freq="110" data-label="SUB" type="button"><span>01</span><b>SUB</b><small>110 Hz</small></button>
+            <button class="pad" data-freq="220" data-label="BODY" type="button"><span>02</span><b>BODY</b><small>220 Hz</small></button>
+            <button class="pad" data-freq="440" data-label="WIRE" type="button"><span>03</span><b>WIRE</b><small>440 Hz</small></button>
+            <button class="pad" data-freq="880" data-label="SPARK" type="button"><span>04</span><b>SPARK</b><small>880 Hz</small></button>
+          </div>
+          <p class="microcopy" data-es="MÓDULO DE PRUEBA · LOS TONOS SON SINTETIZADOS EN TIEMPO REAL." data-en="TEST MODULE · TONES ARE SYNTHESIZED IN REAL TIME.">MÓDULO DE PRUEBA · LOS TONOS SON SINTETIZADOS EN TIEMPO REAL.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="archive section-grid" id="archivo">
+      <div class="section-kicker"><span class="section-number">03 /</span><span data-es="ARCHIVO" data-en="ARCHIVE">ARCHIVO</span></div>
+      <div class="archive-main">
+        <div class="archive-title"><h2 data-es="MATERIAL<br><em>EN PROCESO</em>" data-en="MATERIAL<br><em>IN PROCESS</em>">MATERIAL<br><em>EN PROCESO</em></h2><span class="archive-counter">INDEX: 000—003</span></div>
+        <div class="archive-list">
+          <article><span class="archive-id">A—001</span><div><h3 data-es="REGISTROS" data-en="RECORDINGS">REGISTROS</h3><p data-es="Fragmentos, sesiones y documentos sonoros." data-en="Fragments, sessions, and sonic documents.">Fragmentos, sesiones y documentos sonoros.</p></div><span class="archive-status">IN PROGRESS</span></article>
+          <article><span class="archive-id">B—002</span><div><h3 data-es="IMAGEN" data-en="IMAGE">IMAGEN</h3><p data-es="Fotografía, video y registro de campo." data-en="Photography, video, and field documentation.">Fotografía, video y registro de campo.</p></div><span class="archive-status">IN PROGRESS</span></article>
+          <article><span class="archive-id">C—003</span><div><h3 data-es="DOCUMENTACIÓN" data-en="DOCUMENTATION">DOCUMENTACIÓN</h3><p data-es="Información técnica y material para prensa." data-en="Technical information and press material.">Información técnica y material para prensa.</p></div><span class="archive-status">IN PROGRESS</span></article>
+        </div>
+        <p class="archive-note" data-es="EL ARCHIVO SE ACTUALIZARÁ CON MATERIAL ORIGINAL DE LABEN." data-en="THE ARCHIVE WILL BE UPDATED WITH ORIGINAL LABEN MATERIAL.">EL ARCHIVO SE ACTUALIZARÁ CON MATERIAL ORIGINAL DE LABEN.</p>
+      </div>
+    </section>
+
+    <section class="contact section-grid" id="contacto">
+      <div class="section-kicker"><span class="section-number">04 /</span><span data-es="CONTACTO" data-en="CONTACT">CONTACTO</span></div>
+      <div class="contact-main">
+        <p class="eyebrow">OPEN CHANNEL / 24—7</p>
+        <h2 data-es="ABRIMOS<br>EL <em>CIRCUITO.</em>" data-en="OPENING<br>THE <em>CIRCUIT.</em>">ABRIMOS<br>EL <em>CIRCUITO.</em></h2>
+        <p class="contact-copy" data-es="Para fechas, colaboraciones, prensa o intercambios de señal:" data-en="For bookings, collaborations, press, or signal exchange:">Para fechas, colaboraciones, prensa o intercambios de señal:</p>
+        <a class="contact-link" href="mailto:hola@laben.musica.ar">HOLA@LABEN.MUSICA.AR <span>↗</span></a>
+        <p class="contact-note" data-es="REEMPLAZÁ ESTE CORREO POR EL CONTACTO REAL ANTES DE PUBLICAR." data-en="REPLACE THIS EMAIL WITH YOUR REAL CONTACT BEFORE PUBLISHING.">REEMPLAZÁ ESTE CORREO POR EL CONTACTO REAL ANTES DE PUBLICAR.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="wordmark footer-mark" href="#inicio">La<span>Ben</span><i>®</i></a>
+    <span>INDEPENDENT SOUND PRACTICE / ARGENTINA</span>
+    <span>© LABEN <span id="year"></span> — <span data-es="HECHO EN EL TALLER" data-en="MADE IN THE WORKSHOP">HECHO EN EL TALLER</span></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
